@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width:100vw;
+    background: linear-gradient(180deg ,#003366, #674EA7);
+    
+}
+
+.form-container {
+    width: 500px;
+    margin: 5vh 0;
+    background: #003366;
+    border-radius:15px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.4);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    color: #fcfcfc;
+    width:100%;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #5a4394;
+}
+
+form {
+    padding: 30px 0;
+
+}
+
+label {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-left: 15px;
+    font-size:18px;
+    background:#003366;
+    color:white;
+    padding: 15px 20px;
+    margin-bottom:  20px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+}
+
+#bday {
+    height:50px;
+}
+
+#file {
+    font-size: 14px;
+    height: 50px;
+    width: auto;
+}
+
+.nac {
+    margin: 20px 0;
+}
+
+#russian, #american {
+    width:auto;
+    height: auto;
+}
+
+.radio-nat-label {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.check {
+    width:20px;
+    height:20px;
+}
+
+.check-container {
+    margin: 15px;
+}
+
+.check-container label {
+    font-weight: 500;
+    margin: 15px;
+}
+
+#txt {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    background:#003366;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    outline:0;
+}
+
+.btn-container {
+    width:100%;
+    margin-top: 25px;
+}
+
+#submit-btn {
+    color:white;
+    height:  50px;
+    background:#5a4394;
+
+}

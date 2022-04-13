@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liga dos Astronautas</title>
+</head>
+<body>
+    
+    <div class="container center">
+       
+        <div class="form-container">
+            <h1>Cadastro Liga dos Astronautas</h1>
+            <form action="">
+                <label for="name">Nome:</label>
+                <input type="text"  id='name'> <br>
+                <label for="email">Email:</label>
+                <input type="email" id='email' autocomplete='off'> <br>
+                <label for="bday">Data de Nascimento:</label>
+                <input type="date" id='bday' > <br>
+                <label for="file">Foto:</label>
+                <input type="file" id='file' > <br>
+                <div class="nac">
+
+                    <label for="">Nacionalidade: </label>
+                    <label for="russian" class="radio-nat-label">Russo</label>
+                    <input type="radio" id='russian' name="n" >
+                    <label for="american" class="radio-nat-label">Americano</label>
+                    <input type="radio" id='american' name="n" > <br>
+                </div>
+                <label for="" id='qualities'>Suas maiores qualidades:</label> <br>
+                <div class="check-container">
+                    <label for="int">Inteligente</label>
+                    <input type="checkbox" class="check" name="check" id="int">
+                    <label for="int">Preparo Físico</label>
+                    <input type="checkbox" class="check" name="check" id="str">
+                    <label for="int">Resiliência</label>
+                    <input type="checkbox" class="check" name="check" id="wis">
+                    <label for="int">Carisma</label>
+                    <input type="checkbox" class="check" name="check" id="car"> <br>
+                </div>
+                <label for="txt">Porque você quer ser um astronauta?</label> <br>
+                <textarea name="txt" id="txt"  placeholder="Escreva seu texto sem limite de linha"></textarea>
+                <br>
+                <div class="btn-container center">
+                    <input type="submit" id='submit-btn' value="Enviar">
+                </div>
+            </form>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
